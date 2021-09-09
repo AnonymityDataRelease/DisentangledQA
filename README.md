@@ -2,7 +2,10 @@
 
 This repository contains codes for the paper "Disentangled Retrieval and Reasoning for Implicit Question Answering". 
 
-### Running
+### Disentangled Retrieval Model
+
+1. Creating an Elasticsearch index of our corpus. Following StrategyQA: https://github.com/eladsegal/strategyqa/tree/main/elasticsearch_index
+### Disentangled Reasoning Model
 
 #### Dependencies
 
