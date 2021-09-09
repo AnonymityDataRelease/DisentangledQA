@@ -32,7 +32,14 @@ python main.py \
 --num_workers 0 \ 
 --load_pretrained true \ 
 --epoch_num 20 \ 
---batch_size 16
+--batch_size 16 \
+--max_length 512 \
+--reason_train ./data/reason/train_sents.pk \
+--reason_dev ./data/reason/dev_sents.pk \
+--reason_test ./data/reason/test_sents.pk \
+--prediction_path test_predictions.json \
+--model_path ./checkpoints/mymodel.th \
+--model_class ReasoningPlain 
 ```
 
 ### Operator
