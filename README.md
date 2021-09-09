@@ -27,6 +27,16 @@ Download link to our full corpus of Wikipedia paragraphs is available on the [da
 A script for indexing the paragraphs into Elasticsearch is available [here](elasticsearch_index).
 
 
+#### Topic Retrieval
+
+```
+python Multi-view QueryGeneration.py
+```
+#### Attribute Retrieval
+
+The attribute retriever is built following [Sentence-Transformer](https://github.com/UKPLab/sentence-transformers).
+The retrieved topic-related documents and the data processing of attribute retriever will be released after acception.
+
 ## Disentangled Reasoning Model
 
 #### Dependencies
