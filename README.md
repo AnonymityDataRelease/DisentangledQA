@@ -5,6 +5,28 @@ This repository contains codes for the paper "Disentangled Retrieval and Reasoni
 ### Disentangled Retrieval Model
 
 1. Creating an Elasticsearch index of our corpus. Following StrategyQA: https://github.com/eladsegal/strategyqa/tree/main/elasticsearch_index
+
+#### Requirements
+
+Our experiments were conducted in a Python 3.7 environment.
+To clone the repository and set up the environment, please run the following commands:
+```
+git clone https://github.com/eladsegal/strategyqa.git
+cd strategyqa
+pip install -r requirements.txt
+```
+
+
+#### StrategyQA dataset files
+The official StrategyQA dataset files with a detailed description of their format can be found on the [dataset page](https://allenai.org/data/strategyqa).  
+To train our baseline models, we created a 90%/10% random split of the official train set to get an *unofficial* train/dev split: `data/strategyqa/[train/dev].json`.  
+
+
+#### (Optional) Creating an Elasticsearch index of our corpus 
+Download link to our full corpus of Wikipedia paragraphs is available on the [dataset page](https://allenai.org/data/strategyqa).
+A script for indexing the paragraphs into Elasticsearch is available [here](elasticsearch_index).
+
+
 ### Disentangled Reasoning Model
 
 #### Dependencies
