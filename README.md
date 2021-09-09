@@ -29,7 +29,7 @@ Configuration can be edited in the file  `main.py` or in the running command lin
 
 ```
 python main.py \
---num_workers 0 \ 
+--num_workers 1 \ 
 --load_pretrained true \ 
 --epoch_num 20 \ 
 --batch_size 16 \
